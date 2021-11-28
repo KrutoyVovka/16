@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Lesson 16</title>
+	<meta charset="UTF-8" />
+	<!-- <meta name="format-detection" content="telephone=no"> -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900;display=swap;subset=cyrillic-ext" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,regular,600;display=swap;subset=cyrillic-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			я шапка
+		</header>
+		<main class="main">
+			<div class="block">
+				<div class='block__container'>
+					<div class="block__body">
+						<div class="block__title">Make an appointment</div>
+						<form action="" class="block__form form-1">
+							<div class="form-1__items">
+								<div class="form-1__item">
+									<input autocomplete="off" tabindex="1" required placeholder="name" name="name" value="" type="text" class="form-1__input">
+								</div>
+								<div class="form-1__item">
+									<input autocomplete="off" tabindex="2" required placeholder="email" name="email" value="" type="email" class="form-1__input">
+								</div>
+								<div class="form-1__item">
+									<input autocomplete="off" tabindex="4" required placeholder="phone number" name="phone" value="" type="tel" class="form-1__input">
+								</div>
+								<div class="form-1__item">
+									<input autocomplete="off" tabindex="4" required placeholder="select service" name="service" value="" type="text" class="form-1__input">
+								</div>
+							</div>
+
+							<!-- </div> -->
+							<!-- <div class="form-1__ta"> -->
+							<textarea tabindex="5" name="about" placeholder="Tell us about your puppers include his/her name" class="form-1__textarea"></textarea>
+							<!-- </div> -->
+							<button type="submit" class="form-1__btn btn">make an appointment</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="customer-login">
+				<div class='customer-login__container'>
+					<div class="customer-login__title block-title">Customer Login</div>
+					<div class="customer-login__items">
+						<div class="customer-login__item item-customer">
+							<div class="item-customer__body">
+
+								<div class="item-customer__title item-title">Registered Customers</div>
+								<div class="item-customer__subtitle item-subtitle">If you have an account, sign in with your email address.</div>
+								<form class="item-customer__form form-2">
+									<div class="form-2__block">
+										<div class="form-2__group form-group">
+											<label for="register-email" class="form-2__label form-label">Email</label>
+											<input autocomplete="off" type="email" name="email" value="" class="form-2__input form-input" id="register-email" placeholder="Your Name" />
+										</div>
+										<div class="form-2__group form-group">
+											<label for="register-email" class="form-2__label form-label">Password</label>
+											<input autocomplete="off" type="password" name="password" value="" class="form-2__input form-input" id="register-email" placeholder="Your Name" />
+										</div>
+									</div>
+									<div class="form-2__links form-links">
+										<button class="form-2__btn btn form-btn">Sign In</button>
+										<a href="#" class="form-2__link">Forgot Your Password?</a>
+									</div>
+								</form>
+
+							</div>
+						</div>
+						<div class="customer-login__item item-customer">
+							<div class="item-customer__body">
+
+								<div class="item-customer__title">New Customer?</div>
+								<div class="item-customer__subtitle">Creating an account has many benefits:</div>
+								<ul class="item-customer__list">
+									<li class="item-customer__item">Check out faster</li>
+									<li class="item-customer__item">Keep more than one address</li>
+									<li class="item-customer__item">Track orders and more</li>
+								</ul>
+								<div class="item-customer__links form-links">
+									<a href="#" class="form-btn item-customer__btn btn">Create An Account</a>
+								</div>
+
+							</div>
+						</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="summary">
+				<div class='summary__container'>
+					<div class="summary__body">
+						<div class="summary__title block-title">Summary</div>
+						<form class="summary__form form-summary">
+							<div class="form-summary__title item-title">Estimate Shipping and Tax</div>
+							<div class="form-summary__subtitle item-subtitle">Enter your destination to get a shipping estimate.</div>
+							<div class="form-summary__group form-group">
+								<label for="country" class="form-summary__label form-label">country</label>
+								<input type="text" id="country" name="country" class="form-summary__input form-input">
+							</div>
+							<div class="form-summary__group form-group">
+								<label for="state" class="form-summary__label form-label">State/Province</label>
+								<input type="text" id="state" name="state" class="form-summary__input form-input">
+							</div>
+							<div class="form-summary__group form-group">
+								<label for="zip" class="form-summary__label form-label">Zip/Postal Code</label>
+								<input type="text" id="zip" name="zip" class="form-summary__input form-input">
+							</div>
+							<div class="form-summary__group form-group">
+								<label for="standard" class="form-summary__label form-label">Standard Rate</label>
+								<input checked type="radio" id="standard" name="standard" class="form-summary__radio form-radio">
+								<label for="standard" class="form-summary__label form-label_r">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+							</div>
+							<div class="form-summary__group form-group">
+								<label for="pickup" class="form-summary__label form-summary__label">Pickup from store</label>
+								<input type="radio" id="pickup" name="standard" class="form-summary__radio form-radio">
+								<label for="pickup" class="form-summary__label form-label_r">1234 Street Adress City Address, 1234 $0.00</label>
+							</div>
+							<div class="form-summary__title item-title">Apply Discount Code</div>
+							<div class="form-summary__group form-group">
+								<label for="code" class="form-summary__label form-label">Enter discount code</label>
+								<input type="text" id="code" name="code" class="form-summary__input form-input">
+							</div>
+							<div class="form-summary__links form-links">
+								<button class="form-summary__btn btn form-btn">Apply Discount</button>
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			я подвал
+		</footer>
+	</div>
+</body>
+
+</html>

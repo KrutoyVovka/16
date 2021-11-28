@@ -1,0 +1,379 @@
+/*
+&display=swap
+&subset=cyrillic-ext
+*/
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:regular,400,700,900&display=swap"); */
+
+/* -------------------- ОБНУЛЕНИЕ СТИЛЕЙ ----------------------- */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", sans-serif;
+	/* overflow-x: hidden; */
+	/* background-color: #f5f5f5; */
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	/* padding: 20px; */
+	display: flex;
+	flex-direction: column;
+}
+/* --------------------// ОБНУЛЕНИЕ СТИЛЕЙ //----------------------- */
+
+/*
+COLORS_0 {
+	color:#faed26
+			#46344e
+			#5a5560
+			#9d8d8f
+			#9b786f
+}
+COLORS_1 {
+	color:#A64AC9
+			#FCCD04
+			#FFB48F
+			#F5E6CC
+			#17E9E0
+}
+*/
+
+.header {
+	background-color: #79aa45;
+	padding: 15px;
+}
+.footer {
+	background-color: #79aa45;
+	padding: 15px;
+}
+
+.main {
+	flex: 1 0 100%;
+	padding: 50px 0px;
+
+}
+
+[class*="__container"] {
+	max-width: 1400px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+
+}
+.block{
+	display: flex;
+	justify-content: center;
+}
+.block__body {
+	padding: 76px 57px;
+	background-color: #5D62B5;
+	display: flex;
+	flex-direction: column;
+	max-width: 585px;
+	border-radius: 40px;
+	align-items: center;
+	color:#fff;
+
+}
+.block__title {
+	font-size: 36px;
+	line-height: 1.17;
+	font-weight: 900;
+	text-align: center;
+	margin: 0px 0px 48px 0px;
+}
+.block__form {
+}
+.form-1 {
+	display: flex;
+	flex-direction: column;
+}
+.form-1__items {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 22.44px;
+	margin: 0px -11.22px;
+}
+.form-1__items:not(:last-child) {
+	margin-bottom: 22.44px;
+}
+.form-1__item {
+	/* flex: 0 0 48px; */
+	flex: 1 0 50%;
+	padding: 0px 11.22px;
+
+}
+.form-1__input {
+	min-width: 165px;
+	width: 100%;
+	background-color: #5D62B5;
+	padding: 17px 23.58px 15px;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color:#fff;
+}
+.form-1 *::placeholder {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color:#e6e6e6;
+	transition: all 0.1s ease 0s;
+}
+.form-1 *:focus::placeholder {
+	/* transform: translate(-100%, 0); */
+	opacity: 0;
+}
+.form-1__input::placeholder {
+	text-transform: capitalize;
+
+}
+.form-1__textarea {
+	width: 100%;
+	flex: 0 1 180px;
+	background-color: #5D62B5;
+	padding: 17px 23.58px 15px;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	resize: none;
+	color:#fff;
+	font-family:'Roboto';
+}
+.form-1__textarea:not(:last-child) {
+	margin: 0px 0px 30px 0px;
+}
+.form-1__btn {
+	align-self: flex-end;
+
+}
+.btn {
+	font-size: 12px;
+	line-height: 2;
+	font-weight: 700;
+	letter-spacing: 0.15px;
+	padding: 9px 33px;
+	background-color: #F2726F;
+	border-radius: 8px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.15s ease 0s;
+	color:#fff;
+}
+.btn:hover {
+	color:#F2E9DB;
+}
+
+/* form-2 */
+.customer-login {
+	padding: 50px 0px;
+	font-family:'Poppins', sans-serif;
+
+	color:#000;
+}
+.block-title{
+	font-size: 32px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+.customer-login__title {
+
+}
+.customer-login__title:not(:last-child) {
+	margin: 0px 0px 21px 0px;
+}
+.customer-login__items {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 32px;
+	margin: 0px -18.5px;
+}
+.customer-login__item {
+	padding: 0px 18.5px;
+}
+.item-customer {
+	flex: 1 0 50%;
+
+}
+.item-customer__body {
+	background-color:#F5F7FF;
+	padding: 37px 60px 40px 57px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.item-title{
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+.item-customer__title {
+}
+.item-customer__title:not(:last-child) {
+	margin: 0px 0px 11px 0px;
+}
+.item-subtitle {
+	line-height: 2.14;
+	font-weight: 300;
+	font-size: 14px;
+
+}
+.item-customer__subtitle {
+}
+.item-customer__subtitle:not(:last-child) {
+	margin: 0px 0px 7px 0px;
+}
+.item-customer__form {
+
+}
+.form-2 {
+	display: flex;
+	flex-direction: column;
+}
+.form-2__block{
+}
+.form-2__block:not(:last-child){
+	margin: 0px 0px 30px 0px;
+}
+.form-2__group,
+.form-group{
+	display: flex;
+	flex-direction: column;
+}
+.form-2__group:not(:last-child) {
+	margin: 0px 0px 6px 0px;
+}
+.form-2__label,
+.form-label{
+	font-size: 13px;
+	line-height: 2.1;
+	font-weight: 600;
+}
+.form-2__input,
+.form-input{
+	flex: 0 0 50px;
+	border: 1px solid #A2A6B0;
+	border-radius: 4px;
+	background: #FFFFFF;
+	padding: 0 17px;
+}
+.form, .form-2 *::placeholder
+{
+	font-size: 14px;
+	line-height: 1.43;
+	font-weight: 300;
+	color: #A2A6B0;
+}
+.form-2__links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 23px;
+	align-items: center;
+}
+.form-2__btn {
+	background-color: #0156FF;
+	border-radius: 50px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 600;
+	color:#fff;
+}
+.form-2__link {
+	font-size: 14px;
+	line-height: 1.43;
+	color: #0156FF;
+}
+
+.item-customer__list {}
+.item-customer__list:not(:last-child) {
+	margin: 0px 0px 36px 0px;
+
+}
+.item-customer__item {
+	font-size: 14px;
+	line-height: 1.43;
+	font-weight: 300;
+	padding: 0px 0px 0px 11px;
+	position: relative;
+}
+.item-customer__item::before {
+	content: '';
+	display: inline-block;
+	top: 0;
+	transform: translate(0, 9px);
+	left: 0;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background-color: rgb(0,0,0);
+	position: absolute;
+}
+.form-links{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 23px;
+	flex: 1 1 100%;
+
+}
+.item-customer__links {
+	align-items: flex-start;
+
+}
+.form-btn {
+	background-color: #0156FF;
+	border: 2px solid #0156FF;
+	border-radius: 50px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 600;
+	color:#fff;
+
+}
+.item-customer__btn {
+
+}
+.form-btn:hover {
+	color:#0156FF;
+	border: 2px solid #0156FF;
+	background-color: #F5F7FF;
+}
