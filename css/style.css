@@ -389,9 +389,6 @@ COLORS_1 {
 }
 .summary__form {
 }
-.form-2__group {
-	/* position: relative; */
-}
 .form-2__checkbox {
 	position: relative;
 }
@@ -435,15 +432,3 @@ COLORS_1 {
 	border: 2px solid #0156FF;
 	align-self: flex-start;
 }
-/* .form-2__label-r::after {
-		content: '';
-		width: 10px;
-		flex: 0 0 10px;
-		height: 10px;
-		border-radius: 50%;
-		background-color: #0156FF;
-		align-self: flex-start;
-		position: absolute;
-		top: 5px;
-		left: 5px;
-} */
