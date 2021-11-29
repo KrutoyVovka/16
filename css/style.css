@@ -390,7 +390,7 @@ COLORS_1 {
 .summary__form {
 }
 .form-2__group {
-	position: relative;
+	/* position: relative; */
 }
 .form-2__checkbox {
 	position: relative;
